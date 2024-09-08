@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKTravels.com</title>
+    <link rel="stylesheet" href="tourstyles.css">
+</head>    
+<body>
+    <header>
+        <div class="name">
+            <h2>AKTravels</h2>
+        </div>
+        <div class="navbar">
+            <nav>
+                <ul type="none">
+                    <li><a href="#offers">Offers</a></li>
+                    <li><a href="#stays">Stays</a></li>
+                    <li><a href="#holi">Holiday Packages</a></li>
+                    <li><a href="#activities">Activities</a></li>
+                    <li><a href="#attract">Attractions</a></li>
+                    <button class="login">Login or Create Account</button>
+                </ul>
+            </nav>    
+        </div>    
+    </header>
+    <!--2nd bar-->
+    <section>
+        <div class="bar2">
+            <div class="bar">
+                <img src="flight.png">
+                <div class="bar-text">
+                    <p>Flight</p>
+                </div>
+            </div>
+            <div class="bar">
+                <img src="hotel.png">
+                <div class="bar-text">
+                    <p>Flight+Hotel</p>
+                </div>
+            </div>
+            <div class="bar">
+                <img src="bus.png">
+                <div class="bar-text">
+                    <p>Bus</p>
+                </div>
+            </div>
+            <div class="bar">
+                <img src="train.png">
+                <div class="bar-text">
+                    <p>Train</p>
+                </div>
+            </div>
+            <div class="bar">
+                <img src="cruise-ship.png">
+                <div class="bar-text">
+                    <p>Cruise</p>
+                </div>
+            </div>
+            <div class="bar">
+                <img src="rental-car.png">
+                <div div class="bar-text">
+                    <p>Car Rentals</p>
+                </div>
+            </div>
+            <div class="bar">
+                <img src="holiday.png">
+                <div div class="bar-text">
+                    <p>Holidays</p>
+                </div>
+            </div>
+            <div class="bar">
+                <img src="visa.png">
+                <div div class="bar-text">
+                    <p>Visa</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="main">
+        <div class="way-button">
+            <div class="way-btn">
+                <input type="radio" name="One Way" class="radio" value="One Way">One Way
+            </div>
+            <div class="way-btn">
+                <input type="radio" name="Round Trip" class="radio" value="Round Trip">Round Trip
+            </div>
+            <div class="way-btn">
+                <input type="radio" name="Multi city" class="radio" value="Multi city">Multi city
+            </div>
+            <div>
+                <p>Book International and Domestic Flights</p>
+            </div>
+        </div>
+        <div class="way">
+            <div class="way-tab">
+                <table>
+                    <tr>
+                        <p>FROM</p>
+                    </tr>
+                    <tr>
+                        <input type="text" id="from" name="from" placeholder="Enter departure city" required>
+                    </tr>
+                    <tr>
+                        <p>code, airport name</p>
+                    </tr>
+                </table>
+            </div>
+            <div class="way-tab">
+                <table>
+                    <tr>
+                        <p>TO</p>
+                    </tr>
+                    <tr>
+                        <input type="text" id="to" name="to" placeholder="Enter destination city" required>
+                    </tr>
+                    <tr>
+                       <p>code, airport name</p>
+                    </tr>
+                </table>
+            </div>
+            <div class="way-tab">
+                <table>
+                    <tr>
+                        <p>DEPARTURE</p>
+                    </tr>
+                    <tr>
+                        <input type="date" id="departure-date" name="departure-date" required>
+                    </tr>
+                    <tr>
+                        <p>Change Date</p>
+                    </tr>
+                </table>
+            </div>
+            <div class="way-tab">
+                <table>
+                    <tr>
+                        <p>RETURN</p>
+                    </tr>
+                    <tr>
+                        <input type="date" id="return-date" name="return-date">
+                    </tr>
+                    <tr>
+                        <p>Enter a return date for bigger discounts</p>
+                    </tr>
+                </table>
+            </div>
+            <div class="way-tab2">
+                <table>
+                    <tr>
+                        <p>TRAVELLER & CLASS</p>
+                    </tr>
+                    <tr>
+                        <input type="text" id="passenger" name="from" placeholder="Passenger Number & Type" required>
+                    </tr>
+                    <tr>
+                        <p>Economy/Premium Economy/Business</p>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <button class="flight-btn" type="submit">Search Flights</button>
+        <div class="way-check">
+            <div class="check-btn">
+                <input type="checkbox" name="customer" class="checkbox" value="regular">Regular
+            </div>
+            <div class="check-btn">
+                <input type="checkbox" name="customer" class="checkbox" value="student">Student
+            </div>
+            <div class="check-btn">
+                <input type="checkbox" name="customer" class="checkbox" value="senior">Senior Citizen
+            </div>
+            <div class="check-btn">
+                <input type="checkbox" name="customer" class="checkbox" value="armed">Armed Forces
+            </div>
+            <div class="check-btn">
+                <input type="checkbox" name="customer" class="checkbox" value="doctor">Doctors & Nurses
+            </div>
+        </div>
+    </section>
+
+    <!--Trip Planner-->
+    <section>
+        <div class="planner">
+            <h4>Quick and easy trip planner</h4>
+            <p>Pick a vibe and explore the top destinations all over the world</p>
+            <div class="plan-button">
+                <div class="plan-btn">
+                    <img src="outdoors.png">
+                    <div class="plan-text">
+                        <p>Outdoors</p>
+                    </div>
+                </div>
+                <div class="plan-btn">
+                    <img src="rom.png">
+                    <div class="plan-text">
+                        <p>Romance</p>
+                    </div>
+                </div>
+                <div class="plan-btn">
+                    <img src="beach.png">
+                    <div class="plan-text">
+                        <p>Beach</p>
+                    </div>
+                </div>
+                <div class="plan-btn">
+                    <img src="city.png">
+                    <div class="plan-text">
+                        <p>City</p>
+                    </div>
+                </div>
+            </div>
+            <div class="plan">
+                <div class="plan-pic">
+                    <img src="maldives.jpg">
+                    <div>
+                        <p>Maldives</p>
+                    </div>
+                </div>
+                <div class="plan-pic">
+                    <img src="italy.jpg">
+                    <div>
+                        <p>Italy</p>
+                    </div>
+                </div>
+                <div class="plan-pic">
+                    <img src="bali.jpg">
+                    <div>
+                        <p>Bali</p>
+                    </div>
+                </div>
+                <div class="plan-pic">
+                    <img src="paris.jpg">
+                    <div>
+                        <p>Paris</p>
+                    </div>
+                </div>
+                <div class="plan-pic">
+                    <img src="newzea.jpg">
+                    <div>
+                        <p>New Zealand</p>
+                    </div>
+                </div>
+                <div class="plan-pic">
+                    <img src="london.jpg">
+                    <div>
+                        <p>London</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Offers-->
+    <section id="offers">
+        <div class="pack">
+            <h4>Offers</h4>
+            <p>Enjoy exciting deals on flights, hotels, buses, car rental and tour packages.</p>
+            <div class="offer-btn">
+                <div class="offer-pic">
+                    <img src="offer1.png">
+                    <div class="offer-text">
+                        <h4>New User Offer</h4>
+                        <p>Register and Get Discount on First Bookings with us</p>
+                    </div>
+                    <div class="book">
+                        <p>Book Now</p>
+                    </div> 
+                </div>
+                <div class="offer-pic">
+                    <img src="offer2.png">
+                    <div class="offer-text">
+                        <h4>Deal of the Day</h4>
+                        <p>Enjoy Different Deals Each Day with us</p>
+                    </div>
+                    <div class="book">
+                        <p>Book Now</p>
+                    </div>
+                </div>
+                <div class="offer-pic">
+                    <img src="offer3.png">
+                    <div class="offer-text">
+                        <h4>Biggest Travel Sale</h4>
+                        <p>Grab our crazy discounts on travel bookings like never before</p>
+                    </div>
+                    <div class="book">
+                        <p>Book Now</p>
+                    </div>
+                </div>
+            </div>
+            <div class="offer-btn">
+                <div class="offer-pic">
+                    <img src="offer4.png">
+                    <div class="offer-text">
+                        <h4>Hotel Offer</h4>
+                        <p>Upto 20% Discount on Selected Hotel Booking</p>
+                    </div>
+                    <div class="book">
+                        <p>Book Now</p>
+                    </div>
+                </div>
+                <div class="offer-pic">
+                    <img src="offer5.png">
+                    <div class="offer-text">
+                        <h4>Flight Deal</h4>
+                        <p>Get Discount up to 35% on Booking Flight Tickets</p>
+                    </div>
+                    <div class="book">
+                        <p>Book Now</p>
+                    </div>
+                </div>
+                <div class="offer-pic">
+                    <img src="offer6.png">
+                    <div class="offer-text">
+                        <h4>Duty Free Products</h4>
+                        <p>Available on Selective Airports with Extra Discounts only</p>
+                    </div>
+                    <div class="book">
+                        <p>Book Now</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Stays-->
+    <section id="stays">
+        <div class="pack">
+            <h4>Browse by property type</h4>
+            <p>Find places to stay which suits your mood and pocket</p>
+            <div class="pack-btn">
+                <div class="stay-pic">
+                    <img src="hotelroom.jpg">
+                    <div>
+                        <p>Hotels</p>
+                    </div>
+                </div>
+                <div class="stay-pic">
+                    <img src="apart.jpg">
+                    <div>
+                        <p>Apartments</p>
+                    </div>
+                </div>
+                <div class="stay-pic">
+                    <img src="resort.jpg">
+                    <div>
+                        <p>Resorts</p>
+                    </div>
+                </div>
+                <div class="stay-pic">
+                    <img src="villa.jpg">
+                    <div>
+                        <p>Villas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Holiday packages-->
+    <section id="holi">
+        <div class="pack">
+            <h4>Holiday Packages</h4>
+            <p>Pick from our specially curated packages</p>
+            <div class="pack-btn">
+                <div class="pack-pic">
+                    <img src="lux.jpg">
+                    <div>
+                        <p>Luxe Holidays</p>
+                    </div>
+                </div>
+                <div class="pack-pic">
+                    <img src="fam.jpg">
+                    <div>
+                        <p>Family Tour</p>
+                    </div>
+                </div>
+                <div class="pack-pic">
+                    <img src="honey.jpg">
+                    <div>
+                        <p>Honeymoon</p>
+                    </div>
+                </div>
+                <div class="pack-pic">
+                    <img src="wild.jpeg">
+                    <div>
+                        <p>Wildlife</p>
+                    </div>
+                </div>
+                <div class="pack-pic">
+                    <img src="pilgrim.png">
+                    <div>
+                        <p>Pilgrims</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Thrilling Activities-->
+    <section id="activities">
+        <div class="pack">
+            <h4>Thrilling Adventures</h4>
+            <p>Crazy adventures to travel for. Hold onto your hats.</p>
+            <div class="pack-btn">
+                <div class="pack-pic">
+                    <img src="surf.png">
+                    <div class="ad-text">
+                        <h4>Sand Surfing</h4>
+                        <p>Sahara, Morocco</p>
+                    </div>
+                </div>
+                <div class="pack-pic">
+                    <img src="hot.png">
+                    <div class="ad-text">
+                        <h4>Hot air balloon</h4>
+                        <p>Cappadocia, Turkey</p>
+                    </div>
+                </div>
+                <div class="pack-pic">
+                    <img src="skiing.jpg">
+                    <div class="ad-text">
+                        <h4>Skiing & Snowboarding</h4>
+                        <p>Gulmarg, India</p>
+                    </div>
+                </div>
+                <div class="pack-pic">
+                    <img src="dive.jpg">
+                    <div class="ad-text">
+                        <h4>Diving & Snorkeling</h4>
+                        <p>Fitzroy Island, Australia</p>
+                    </div>
+                </div>
+                <div class="pack-pic">
+                    <img src="bun.jpg">
+                    <div class="ad-text">
+                        <h4>Bungee jump</h4>
+                        <p>Queenstown, New Zealand</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Most Searched-->
+    <section id="attract">
+        <div class="mos">
+            <h4>Our most searched: Top countries for places to stay</h4>
+            <div class="mos-btn">
+                <div class="most">
+                    <h4>Italy</h4>
+                    <div>
+                        <p>329592 places to stay</p>
+                    </div>
+                </div>
+                <div class="most">
+                    <h4>France</h4>
+                    <div>
+                        <p>320817 places to stay</p>
+                    </div>
+                </div>
+                <div class="most">
+                    <h4>United States</h4>
+                    <div>
+                        <p>265690 places to stay</p>
+                    </div>
+                </div>
+                <div class="most">
+                    <h4>Spain</h4>
+                    <div>
+                        <p>239876 places to stay</p>
+                    </div>
+                </div>
+                <div class="most">
+                    <h4>Germany</h4>
+                    <div>
+                        <p>185690 places to stay</p>
+                    </div>
+                </div>
+                <div class="most">
+                    <h4>United Kingdom</h4>
+                    <div>
+                        <p>163018 places to stay</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mos-btn">
+                <div class="most">
+                    <h4>Croatia</h4>
+                    <div>
+                        <p>127884 places to stay</p>
+                    </div>
+                </div>
+                <div class="most">
+                    <h4>Greece</h4>
+                    <div>
+                        <p>105708 places to stay</p>
+                    </div>
+                </div>
+                <div class="most">
+                    <h4>Brazil</h4>
+                    <div>
+                        <p>105728 places to stay</p>
+                    </div>
+                </div>
+                <div class="most">
+                    <h4>Poland</h4>
+                    <div>
+                        <p>92134 places to stay</p>
+                    </div>
+                </div>
+                <div class="most">
+                    <h4>India</h4>
+                    <div>
+                        <p>69097 places to stay</p>
+                    </div>
+                </div>
+                <div class="most">
+                    <h4>Portugal</h4>
+                    <div>
+                        <p>45530 places to stay</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--End note-->
+    <section>
+        <hr>
+        <div class="endnote">
+            <div class="note">
+                <img src="note1.png">
+                <div>
+                    <h4>Explore top attractions</h4>
+                    <p>Experience the best of your destination, with tours, attractions, activities and more.</p>
+                </div>
+            </div>
+            <div class="note">
+                <img src="note2.png">
+                <div>
+                    <h4>Fast and Flexible</h4>
+                    <p>Book tickets online in minutes, with free cancellation on many attractions.</p>
+                </div>
+            </div>  
+            <div class="note">
+                <img src="note3.png">
+                <div>
+                    <h4>24/7 Support</h4>
+                    <p>Get assistance 24/7 on any kind of travel related query. We are happy to assist you.</p>
+                </div>               
+            </div> 
+        </div>
+        <hr>
+    </section>
+
+    <footer>
+        <p>AKTravels offers 'End to End' travel solutions including air tickets for more than 400 international and domestic airlines, 
+            hotel bookings for nearly 1 million hotels in India and abroad, cab booking with 4000+ cab operators, 
+            bus tickets with 2000+ bus operators, and railway tickets globally for all major cities.</p>
+            <hr>
+        <p>&copy;2024 AKTravels. All Rights Reserved</p>    
+    </footer>
+</body>
+</html>
